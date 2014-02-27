@@ -1,0 +1,33 @@
+@font-face
+{
+font-family: pacifico;
+src: url(fonts/pacifico.ttf);
+}
+
+html, body{
+	height: 100%;
+ 	background-color: #fff;
+}
+body{
+  box-shadow: inset 0 0 100px rgba(0,0,0,.3);
+}
+
+.title-mobile{
+	text-shadow: 0 1px 5px rgba(0,0,0,.3);
+	text-align: center;
+	font-family: pacifico;
+	font-size: 4em;
+	color: #354e65;
+}
+
+.title-large{
+	text-shadow: 0 1px 5px rgba(0,0,0,.3);
+	font-family: pacifico;
+	font-size: 4em;
+	color: #354e65;
+	text-align: left;
+}
+
+
+
+    
