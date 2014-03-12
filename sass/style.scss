@@ -4,12 +4,29 @@ font-family: pacifico;
 src: url(fonts/pacifico.ttf);
 }
 
-html, body{
-	height: 100%;
- 	background-color: #fff;
+@font-face
+{
+font-family: nexabold;
+src: url(fonts/nexabold.otf);
 }
+
+html{
+	height: 100%;
+    
+ 	
+}
+
 body{
-  box-shadow: inset 0 0 100px rgba(0,0,0,.3);
+	background-color: #fff;
+	min-height: 100%; 	
+  	box-shadow: inset 0 0 100px rgba(0,0,0,.1);
+  	background-color: #fff;
+}
+
+
+imgd{
+	margin: 10px;
+	float: left;
 }
 
 .title-mobile{
@@ -28,6 +45,45 @@ body{
 	text-align: left;
 }
 
+.nav {
+	padding-top: 30px;
+	ul{
 
+		li {
+			float:left;
+			display:inline;
+			padding: 10px;
+			font-family: nexabold ;
+			font-size: 2em;
+			color: #424242;
+		}
 
-    
+	}
+	
+}
+
+.blurb{
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+.bumper-bottom{
+	margin-bottom: 20px;
+}
+
+.bumper-top{
+	margin-top: 20px;
+}
+
+.divider{
+	height: 12px;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color: #e9e9e9;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+a{
+	text-decoration: none;
+}
